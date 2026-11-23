@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Bagian Header */
+header {
+    background-color: #263859;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav a:hover {
+    color: #ffc857;
+}
+
+/* Halaman Beranda */
+.home {
+    text-align: center;
+    padding: 80px 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    background-color: #263859;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin: auto;
+}
+
+.tombol {
+    display: inline-block;
+    background-color: #263859;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Halaman Tentang dan Kontak */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    color: #263859;
+}
+
+.container h2 {
+    margin-top: 25px;
+}
+
+/* Bagian Proyek */
+.project {
+    background-color: #f0f2f5;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+/* Bagian Footer */
+footer {
+    background-color: #263859;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+/* Tampilan HP */
+@media screen and (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+}
